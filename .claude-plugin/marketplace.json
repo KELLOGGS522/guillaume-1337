@@ -16,7 +16,7 @@
       "version": "0.1.0",
       "author": {
         "name": "yzavyas",
-        "url": "https://github.com/yzavyas"
+        "email": "yza.vyas@example.com"
       },
       "homepage": "https://github.com/yzavyas/claude-1337",
       "repository": "https://github.com/yzavyas/claude-1337",
@@ -30,12 +30,9 @@
       ],
       "category": "development",
       "strict": false,
-      "commands": [],
-      "agents": [],
       "skills": [
         "./skills"
-      ],
-      "hooks": []
+      ]
     }
   ]
 }
