@@ -1,0 +1,25 @@
+{
+  "name": "claude-1337",
+  "owner": {
+    "name": "Yza Vyas",
+    "email": "yza.vyas@example.com"
+  },
+  "metadata": {
+    "description": "Elite terminal tools for Claude Code",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "terminal-1337",
+      "description": "Master elite terminal tools for 10x productivity",
+      "source": "./",
+      "strict": false,
+      "commands": [],
+      "agents": [],
+      "skills": [
+        "./skills/terminal-1337"
+      ],
+      "hooks": []
+    }
+  ]
+}
