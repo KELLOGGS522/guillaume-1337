@@ -25,6 +25,29 @@ Standard skills teach. 1337 skills decide.
 3. **Concise** - Decision frameworks + gotchas, not tutorials
 4. **Claude is smart** - Only add what Claude doesn't already know
 
+## Executable Workflow
+
+Don't read process docs. Run prompts.
+
+| Step | Do | Reference |
+|------|----|-----------|
+| 1 | Test Claude's knowledge, find gaps | [research-workflow.md](references/research-workflow.md#step-1-define-the-gap) |
+| 2 | Research 3 production codebases | [research-workflow.md](references/research-workflow.md#step-2-research-production-codebases) |
+| 3 | Verify with maintainer quotes | [research-workflow.md](references/research-workflow.md#step-3-verify-with-maintainers) |
+| 4 | Collect production gotchas | [research-workflow.md](references/research-workflow.md#step-4-identify-production-gotchas) |
+| 5 | Fill in SKILL.md template | [research-workflow.md](references/research-workflow.md#step-5-draft-the-skill) |
+| 6 | Run validation checks | [research-workflow.md](references/research-workflow.md#step-6-validate) |
+
+**Source Hierarchy** (what to research):
+
+| Priority | Source | Why |
+|----------|--------|-----|
+| 1 | Production codebases | What actually ships |
+| 2 | Core maintainers | Primary knowledge holders |
+| 3 | Conference talks | War stories from practitioners |
+| 4 | Proven adoption | Social proof + real usage |
+| 5 | Technical blogs | Secondary, always verify |
+
 ## Content Triage
 
 See [content-triage.md](references/content-triage.md) for the full filter.
